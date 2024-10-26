@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.next-slick-arrow,
+.prev-slick-arrow {
+  color: #000000;
+  font-size: 45px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.prev-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background: #741906;
+}
+
+.next-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background: #741906;
+}
+
+.car-items {
+  display: flex;
+}
+.car-item {
+  flex: 1;
+}
+
+.content {
+  position: relative;
+  background: #fafafa;
+  padding: 20px 12.4rem 5.2rem 12.4rem;
+  padding-bottom: 14rem;
+}
+
+.slider-container {
+  text: white;
+}
