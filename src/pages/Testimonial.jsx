@@ -2,7 +2,6 @@ import img1 from "../assets/car.png";
 import img2 from "../assets/start.png";
 
 import { TestimonialCard } from "../Components/TestimonialCard";
-import AutoPlay from "../Components/AutoPlay";
 
 export const Testimonial = () => {
   return (
